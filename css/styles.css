@@ -1,0 +1,213 @@
+img {
+  height: 290px;
+  width: 400px;
+}
+
+#tab .well{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-style: none;
+  font-weight: bolder;
+  font-size: 3vh;
+}
+
+#tab1 {
+  text-align: center;
+  display: none;
+}
+
+#tab1 h1{
+color: white;
+font-weight: bolder;
+}
+
+#tab2 p{
+color: white;
+font-weight: bolder;
+}
+
+#tab1 img{
+opacity: 0.9;
+}
+
+#displayed, #score {
+  font-size: 5vh;
+  color: rgb(0, 0, 0);
+  display: none;
+}
+
+body {
+  background-image: url("../img/backG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#qn1a {
+  display: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 10vh;
+}
+
+.two {
+  color: rgb(43, 43, 43);
+}
+
+#tab3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 3vh;
+}
+
+#tab3, ul {
+  list-style: none;
+}
+
+#tab2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 5vh;
+}
+
+#tab2, button {
+  font-size: 3vh;
+  color: rgb(29, 29, 29);
+}
+
+#outputtwo {
+  display: none;
+}
+
+.disturb {
+  color: white;
+  font-weight: bolder;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  \
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+color: rgb(0,0,0);
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+
+  text-align: center;
+}
+
+#tab4 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 3vh;
+  padding-top: 10vh;
+}
+
+.black {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  width: 100%;
+  display: none;
+}
+
+#tab5 {
+  display: none;
+}
+
+#foot {
+  height: 90vh;
+  width: 100vh;
+}
+
+#tab4 {
+  display: none;
+}
+
+#tab3 {
+  display: none;
+}
+
+#tab3 img {
+  opacity: 0.75;
+}
+
+#tab5 {
+  color: rgb(28, 28, 28);
+  text-align: center;
+  padding-top: 2vh;
+  font-size: 5vh;
+}
+
+input {
+  color: rgb(19, 19, 19);
+}
+
+#last {
+  color: black;
+  text-align: center;
+  border: 2px;
+  padding: 5px;
+  display: none;
+  font-size: 5vh;
+  opacity: 0.5;
+}
+#inlast{
+  color: rgba(0, 0, 0, 0.99);
+  display: none;
+  font-size: 5vh;
+}
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+}
+
+#giveAnswer{
+  color: white;
+  font-weight: bolder;
+}
+
+#tab5{
+  color: white;
+  font-weight: bolder;
+}
+#logo{
+  border-radius: 10vh;
+  height: 300px;
+  width: 270px;
+  opacity: 0.9;
+}
